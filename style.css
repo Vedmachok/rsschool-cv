@@ -1,0 +1,256 @@
+body {
+  margin:auto;
+  max-width: 960px;
+  /* width: 100%; */
+  font-family: "Urbanist","Montserrat", "Helvetica", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #A66500;
+  background-color: #FFD073;
+  background-repeat: no-repeat;
+  background-position: top center;
+ 
+}
+.page-header{
+  width: 960px;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* background-color: bisque; */
+  
+}
+ hr{
+  align-items: center;
+  height: 5px;
+  border: 0;
+  background-color: #A66500;
+  width: 90%;
+  border-radius: 50%;
+  }
+.user-image{
+  width: 400px;
+  /* margin-left: 5%; */
+margin-top: 32px;
+
+}
+
+.user-contact{
+  width: 428px;
+  margin-left:32px;
+  list-style: none;
+  font-size: 18px;
+  
+}
+.position-inf{
+  color: #000000;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.contact-information{
+  font-size: 18px;
+  font-weight: 700;
+  
+}
+.user-contact-bold{
+  font-size: 22px;
+  color: #000000;
+  font-weight: 900;
+}
+
+.user-contact-inf{
+  color: #A66500;
+  font-weight: 700;
+  
+}
+
+.header-profession{
+  color: #000000;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.header-email {
+  color: #000000;
+  text-decoration: none;
+  background-image: url("img/icon-email.svg");
+  background-repeat: no-repeat;
+  padding-left: 30px;
+  
+  
+}
+.header-phone {
+  color: #000000;
+  text-decoration: none;
+  padding-left: 25px;
+  background-image: url("img/icon-phone.svg");
+  background-repeat: no-repeat;
+}
+.header-telegram {
+  color: #000000;
+  text-decoration: none;
+  padding-left: 25px;
+  background-image: url("img/icon-telegram.svg");
+  background-repeat: no-repeat;
+}
+
+.header-git-hub{
+  color: #000000;
+  text-decoration: none;
+  padding-left: 25px;
+  background-image: url("img/icon-github.svg");
+  background-repeat: no-repeat;
+}
+.header-LinkedIn{
+  color: #000000;
+  text-decoration: none;
+  padding-left: 25px;
+  background-image: url("img/icon-in.svg");
+  background-repeat: no-repeat;
+}
+
+.header-codewars{
+  color: #000000;
+  text-decoration: none;
+  padding-left: 25px;
+  background-image: url("img/icon-codewars.svg");
+  background-repeat: no-repeat;
+}
+
+
+.about-and-skills{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* background-color: bisque; */
+}
+
+.subheading{
+  color: #000000;
+}
+.about-text{
+  width: 50%;
+  margin-left:5%;
+  /* background-color: rgb(0, 0, 0); */
+  
+}
+
+.skills{
+  width: 42%;
+  margin-left: 9%;
+  margin-right: 5%;
+  /* background-color: rgb(0, 0, 0); */
+  
+}
+
+.skills-list {
+  margin: 0;
+  padding: 0;
+}
+.skills-list dt {
+  padding-left: 32px;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.skill-html {
+  background-image: url("img/icon-html.svg");
+}
+.skill-css {
+  background-image: url("img/icon-css.svg");
+}
+
+.skill-js {
+  background-image: url("img/icon-js.svg");
+}
+.skill-github {
+  background-image: url("img/github.svg");
+}
+.skill-sql {
+  background-image: url("img/sql.svg");
+}
+
+.skill-gulp {
+  background-image: url("img/gulp.svg");
+}
+
+.skill-sass {
+  background-image: url("img/sass-icon.svg");
+}
+.level {
+  margin: 4px 0 16px;
+  padding: 0;
+  height: 14px;
+  font-size: 0;
+  background-color: #d4cccc;
+  border: 2px solid #A66500;
+  border-radius: 8px;
+}
+.level div {
+  margin: 1px;
+  height: 12px;
+  background-color: #FF9C00;
+  border-radius: 6px;
+}
+
+
+
+.examples-and-works{
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* background-color: bisque; */
+
+}
+
+.code-examples{
+  width: 45%;
+  margin-left:5%;
+  margin-right: 5%;
+  /* background-color:#000000; */
+}
+
+.language-knowledge{
+  width: 42%;
+  margin-left: 0%;
+  margin-right: 5%;
+  /* background-color: rgb(0, 0, 0); */
+  
+}
+
+pre{
+  width:100%;
+  height:79%;
+  overflow-x:scroll;
+
+}
+.language-contents{
+  list-style: none;
+  
+}
+.page-footer{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #FF9C00;
+}
+.footer-contacts {
+  list-style: none;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+
+
+.footer-year{
+  color: #000000;
+  font-weight: 600;
+}
