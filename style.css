@@ -11,6 +11,11 @@ body {
   background-position: top center;
  
 }
+
+.visually-hidden {
+  display: none;
+}
+
 .page-header{
   width: 960px;
   margin: 0;
@@ -253,4 +258,37 @@ pre{
 .footer-year{
   color: #000000;
   font-weight: 600;
+}
+
+.up-button {
+  position: fixed;
+  z-index: 1;
+  padding: 0;
+  bottom: 75px;
+  right: 20px;
+  width: 64px;
+  height: 64px;
+  font-size: 36px;
+  font-weight: 900;
+  text-align: center;
+  vertical-align: middle;
+  border: 7px solid;
+  border-radius: 50%;
+  display: none;
+  cursor: pointer;
+}
+.up-button {
+  color: #A66500;
+  background-color:#FFD073;
+  border-color: #A66500;
+  outline-color:#FFCD73;
+}
+
+.up-button:hover {
+  color: #FFD073;
+  background-color: #A66500;
+  border-color: #FFD073;
+}
+.shown {
+  display: inline-block;
 }
